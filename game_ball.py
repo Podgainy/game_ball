@@ -35,7 +35,7 @@ def main():
     x = randint(R, WIDTH - R)
     y = randint(R, HEIGHT - R)
     dx, dy = (+2, +3)
-    ball_id = canvas.create_oval(x - R, y - R, x + R, y + R, fill="blue")
+    ball_id = canvas.create_oval(x - R, y - R, x + R, y + R, fill="lightgreen")
 
     tick()
     root.mainloop()
